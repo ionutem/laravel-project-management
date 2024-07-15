@@ -1,0 +1,50 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/framework/cache/data/*
+/storage/logs/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+/.env
+/.env.*.php
+
+# Vite
+/public/build
+
+# Composer generated files
+composer.lock
+
+# npm generated files
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# dotenv generated file
+.env.backup
+
+# IDE files
+/.idea
+/.vscode
+/*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Laravel specific files
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+.phpunit.cache
+phpunit.xml
+phpunit.xml.dist
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
